@@ -1,4 +1,4 @@
-const text = document.querySelector('h2');
+const text = document.querySelector('div.countdown-birthday');
 
 
 function chrono(){
@@ -15,7 +15,7 @@ const hours = Math.floor((distanceDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 6
 const minutes = Math.floor((distanceDate % (1000 * 60 * 60 )) / (1000 * 60));
 const seconds = Math.floor((distanceDate % (1000 * 60 )) / 1000);
 
-text.innerText = `${days}j ${hours}h ${minutes}m ${seconds}s`
+text.innerText = `${days} days ${hours}h ${minutes}m ${seconds}s`
 };
 
 const countdown = setInterval(() => {
