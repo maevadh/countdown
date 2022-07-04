@@ -1,0 +1,21 @@
+.container {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.container {
+  align-items: center;
+  background-image: url(../image/light.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+.container__white-color {
+  color: white;
+}
+.container__margin {
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-const text = document.querySelector('p.countdown-birthday');
+const text = document.querySelector('span.countdown-birthday');
 
 
 function chrono(){
